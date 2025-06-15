@@ -1,4 +1,4 @@
-namespace RealWorldBackend
+namespace RealWorldBackend.DataModels
 {
     public class WeatherForecast
     {

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RealWorldBackend
+namespace RealWorldBackend.Entities.ResponseEntities
 {
-    public class User
+    public class UserResponse
     {
         [Required]
         [DataType(DataType.EmailAddress)]
@@ -14,8 +14,13 @@ namespace RealWorldBackend
         [Required]
         public string? Username { get; set; }
 
-        public string? Bio {  get; set; }
+        public string? Bio { get; set; }
 
         public string? Image { get; set; }
+
+        public UserResponse()
+        {
+
+        }
     }
 }

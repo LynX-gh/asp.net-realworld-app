@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using RealWorldBackend.DataModels;
 
 namespace RealWorldBackend.Controllers
 {
